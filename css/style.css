@@ -1993,6 +1993,7 @@ nav.paging1{
 		margin: 2em 0;
 	}
 }
+
 @media (max-width:991px){
 	.paging {
 		padding: 3em 0 0;
@@ -2001,7 +2002,18 @@ nav.paging1{
 		margin: 3em auto 0;
 		width: 60%;
 	}
+  #footer-logo{
+    display: none;
+  }
 }
+
+@media (max-width: 812px){
+  #footer-logo{
+    display: none;
+  }
+}
+
+
 @media (max-width:640px){
 	.event-left1-left-pos ul li a span {
 		padding-right: .5em;
@@ -2019,6 +2031,9 @@ nav.paging1{
 	.categories h3:after, .posts h3:after, .tags1 h3:after, .comments h3:after, .leave-coment-form h3:after {
 		left: 50%;
 	}
+  #footer-logo{
+    display: none;
+  }
 }
 @media (max-width:480px){
 	.event-left1-left {
@@ -2054,6 +2069,9 @@ nav.paging1{
 	.categories h3:after, .posts h3:after, .tags1 h3:after, .comments h3:after, .leave-coment-form h3:after {
 		left: 30%;
 	}
+  #footer-logo{
+    display: none;
+  }
 }
 @media (max-width:384px){
 	.event-right.wthree-event-right {
@@ -2081,6 +2099,9 @@ nav.paging1{
     background-size: contain;
     max-height: 50px;
   }*/
+  #footer-logo{
+    display: none;
+  }
 }
 @media (max-width:320px){
 	.event-left1-left-pos ul li {
