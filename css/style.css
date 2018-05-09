@@ -43,7 +43,7 @@ img{
 	position: relative;
 }
 .banner-layer {
-    background: url(../images/layer.png)repeat;
+    background-color:rgba(0,0,0,0.52);
     min-height: 770px;
 }
 .banner1{
@@ -56,8 +56,8 @@ img{
 	min-height:300px;
 }
 .banner-layer1 {
-    background: url(../images/layer.png)repeat;
-	min-height:300px;
+	 background-color:rgba(0,0,0,0.52);
+   	min-height:300px;
 }
 /*-- menu-navigation --*/
 .shy-menu{
